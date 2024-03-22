@@ -10,9 +10,16 @@ xy = []
 
 for intent in intents['intents']:
     tag = intent['tag']
-    tag.append(tag)
-    for pattern in intents['patterns']:
+    tags.append(tag)
+    for pattern in intent['patterns']:
         w = tokenize(pattern)
         all_words.extend(w)
         xy.append((w, tag))
 
+ignore_words =  ['?','!','.',',']
+all_words = [stem(w) for w in all_words if w not in ignore_words]
+all_words = sorted(set(all_words))
+
+tags = sorted(set(tags))
+
+print(tags)
