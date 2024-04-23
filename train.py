@@ -4,7 +4,6 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-# Assuming nltk_utils and model are properly defined elsewhere
 from nltk_utils import tokenize, stem, bag_of_words
 from model import NeuralNet
 
@@ -24,7 +23,7 @@ def prepare_data():
             all_words.extend(w)
             xy.append((w, tag))
 
-    ignore_words =  ['?','!','.',',']
+    ignore_words = ['?', '!', '.', ',']
     all_words = [stem(w) for w in all_words if w not in ignore_words]
     all_words = sorted(set(all_words))
     tags = sorted(set(tags))
@@ -50,7 +49,7 @@ class ChatDataset(Dataset):
 
     def __getitem__(self, index):
         return self.x_data[index], self.y_data[index]
-    
+
     def __len__(self):
         return self.n_samples
 
@@ -88,6 +87,20 @@ def main():
             print(f'epoch {epoch+1}/{num_epochs}, loss={loss.item():.4f}')
 
     print(f'final loss: {loss.item():.4f}')
+
+    data = {
+        "model_state": model.state_dict(),
+        "input_size": input_size,
+        "output_size": output_size,
+        "hidden_size": hidden_size,
+        "all_words": all_words,
+        "tags": tags
+    }
+
+    FILE = "data.pth"
+    torch.save(data, FILE)
+
+    print(f'training complete, file saved to {FILE}')
 
 if __name__ == '__main__':
     main()
