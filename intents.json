@@ -1,20 +1,45 @@
 {
     "intents": [
       {
-        "tag": "greeting",
+        "tag": "sapaan",
         "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
+          "Halo",
+          "Apa kabar?",
+          "Hai",
+          "Selamat pagi",
+          "Selamat siang",
+          "Selamat sore",
+          "Ada yang bisa dibantu?",
+          "Bagaimana hari Anda?",
+          "Halo, apa yang bisa saya bantu?",
+          "Selamat datang"
         ],
         "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Halo :)",
+          "Hai, senang bertemu dengan Anda",
+          "Selamat datang, ada yang bisa saya bantu?",
+          "Halo, ada sesuatu yang ingin ditanyakan?",
+          "Salam kenal :) ada yang ingin ditanyakan?",
+          "Hai, perlu bantuan? :)"
+        ]
+      },
+      {
+        "tag": "pemesanan",
+        "patterns": [
+          "Bagaimana cara memesan?",
+          "Cara pesannya bagaimana?",
+          "Gimana cara pesan?",
+          "Pesannya gimana ya?",
+          "Saya ingin memesan",
+          "langkah pesannya bagaimana ya?",
+          "step pemesannya bagaimana?",
+          "saya gabisa order",
+          "cara ordernya bagaimana ya?",
+          "Saya ingin order, caranya bagaimana"
+        ],
+        "responses": [
+          "cara ordernya begini",
+          "Begini"
         ]
       }
     ]
