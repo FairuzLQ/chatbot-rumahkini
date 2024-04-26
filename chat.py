@@ -10,7 +10,6 @@ with open('intents.json', 'r') as f:
     intents = json.load(f)
 
 FILE = "data.pth"
-
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -26,17 +25,11 @@ model.eval()
 
 bot_name = "Joni"
 
-print("Hi, ada yang bisa saya bantu? :)")
-
-while True:
-    sentence = input('Nama User: ')
-    if sentence == "quit":
-        break
-    
-    sentence = tokenize(sentence)
+def get_response(user_input):
+    sentence = tokenize(user_input)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
-    X = torch.from_numpy(X).to(device)  # Correct this line to include X and move to device
+    X = torch.from_numpy(X).to(device)
 
     output = model(X)
     _, predicted = torch.max(output, dim=1)
@@ -45,9 +38,19 @@ while True:
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    if prob.item() > 0.75:
+    if prob.item() > 0.65:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
-    else:
-        print(f"{bot_name}: Maaf, saya tidak mengerti :(")
+                response = random.choice(intent['responses'])
+                return f"{bot_name}: {response} (Confidence: {prob.item():.2f})"
+    return f"{bot_name}: Maaf, saya tidak mengerti :( (Confidence: {prob.item():.2f})"
+
+print("Hi, ada yang bisa saya bantu? :)")
+
+while True:
+    user_input = input('Nama User: ')
+    if user_input == "quit":
+        break
+    
+    response = get_response(user_input)
+    print(response)

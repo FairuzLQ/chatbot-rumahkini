@@ -4,6 +4,11 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
+
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+
 from nltk_utils import tokenize, stem, bag_of_words
 from model import NeuralNet
 
@@ -67,18 +72,24 @@ def main():
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = NeuralNet(input_size, hidden_size, output_size).to(device)
-
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+    # To store predictions and actual labels
+    true_labels = []
+    predictions = []
 
     for epoch in range(num_epochs):
         for (words, labels) in train_loader:
             words = words.to(device)
             labels = labels.to(device)
-
             outputs = model(words)
-            loss = criterion(outputs, labels)
+            _, predicted = torch.max(outputs, 1)
+            predictions.extend(predicted.cpu().numpy())
+            true_labels.extend(labels.cpu().numpy())
 
+            # Training step
+            loss = criterion(outputs, labels)
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -87,6 +98,17 @@ def main():
             print(f'epoch {epoch+1}/{num_epochs}, loss={loss.item():.4f}')
 
     print(f'final loss: {loss.item():.4f}')
+
+    conf_matrix = confusion_matrix(true_labels, predictions)
+    # Calculate the accuracy from the confusion matrix
+    accuracy = np.trace(conf_matrix) / np.sum(conf_matrix)
+    print(f'Accuracy: {accuracy:.4f}')
+    plt.figure(figsize=(10, 7))
+    sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=tags, yticklabels=tags)
+    plt.xlabel('Predicted Labels')
+    plt.ylabel('True Labels')
+    plt.title('Confusion Matrix')
+    plt.show()
 
     data = {
         "model_state": model.state_dict(),
@@ -99,7 +121,6 @@ def main():
 
     FILE = "data.pth"
     torch.save(data, FILE)
-
     print(f'training complete, file saved to {FILE}')
 
 if __name__ == '__main__':

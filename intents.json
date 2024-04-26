@@ -38,8 +38,88 @@
           "Saya ingin order, caranya bagaimana"
         ],
         "responses": [
-          "cara ordernya begini",
-          "Begini"
+          "j"
+        ]
+      },
+      {
+        "tag": "pembayaran",
+        "patterns": [
+          "Bagaimana cara membayar pesanan?"
+        ],
+        "responses": [
+          "i"
+        ]
+      },
+      {
+        "tag": "perekrutan",
+        "patterns": [
+          "Bagaimana cara menjadi mitra rumahkini?"
+        ],
+        "responses": [
+          "h"
+        ]
+      },
+      {
+        "tag": "konsultasi",
+        "patterns": [
+          "Berapa lama menunggu pesanan?"
+        ],
+        "responses": [
+          "g"
+        ]
+      },
+      {
+        "tag": "rumahkini",
+        "patterns": [
+          "Apa sih rumahkini?"
+        ],
+        "responses": [
+          "f"
+        ]
+      },
+      {
+        "tag": "harga",
+        "patterns": [
+          "Berapa rentang harga desain?"
+        ],
+        "responses": [
+          "e"
+        ]
+      },
+      {
+        "tag": "paket_sketsa",
+        "patterns": [
+          "Untuk paket sketsa dapat apa aja?"
+        ],
+        "responses": [
+          "d"
+        ]
+      },
+      {
+        "tag": "paket_blueprint",
+        "patterns": [
+          "Untuk paket blueprint dapat apa aja?"
+        ],
+        "responses": [
+          "c"
+        ]
+      },
+      {
+        "tag": "paket_sketsa_blueprint",
+        "patterns": [
+          "Untuk paket lengkap dapat apa aja?"
+        ],
+        "responses": [
+          "b"
+        ]
+      },
+      {
+        "tag": "hubungi_kami",
+        "patterns": [
+          "Untuk paket lengkap dapat apa aja?"
+        ],
+        "responses": [
+          "a"
         ]
       }
     ]
