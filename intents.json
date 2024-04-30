@@ -35,28 +35,63 @@
           "step pemesannya bagaimana?",
           "saya gabisa order",
           "cara ordernya bagaimana ya?",
-          "Saya ingin order, caranya bagaimana"
+          "Saya ingin order, caranya bagaimana",
+          "cara pesan"
         ],
         "responses": [
-          "j"
+          "Begini Alur Pemesanan Jasa Konsultasi di Rumah Kini: • Pertama, Kamu bisa pilih tenaga ahli yang diinginkan. • Lalu, kamu harus mengisi data yang diperlukan untuk keperluan tenaga ahli, seperti luas tanah, bangunan, hingga ruangan apa saja nih yang kamu mau. • Nah, setelah isi data, kamu bisa melakukan pembayaran terus menunggu tenaga ahli menerima pesanan jika kamu sudah bayar. • Selanjutnya, baru deh, kamu bisa bercakap dengan tenaga ahli melalui fitur live chat, pastikan semua kebutuhan dan keinginan anda tersampaikan ke tenaga ahli ya. • Setelah chat, tenaga ahli bakal buat desain rumah impian yang kamu! Tenang, kamu bisa revisi desainnya sebanyak 2 kali kok. • Terakhir, kamu baru deh dapat desain akhir hasil konsultasi dari tenaga ahli."
         ]
       },
       {
         "tag": "pembayaran",
         "patterns": [
-          "Bagaimana cara membayar pesanan?"
+          "Bagaimana cara membayar pesanan?",
+          "Cara bayar gimana?",
+          "Apa metode pembayaran yang tersedia?",
+          "Bagaimana saya bisa melakukan pembayaran?",
+          "Instruksi pembayaran untuk layanan ini?",
+          "Bisa bayar pakai apa saja?",
+          "Proses pembayaran seperti apa?",
+          "Langkah-langkah pembayaran yang perlu diikuti?",
+          "Ada opsi pembayaran apa saja?",
+          "Gimana sih cara membayar dengan kartu kredit?",
+          "Bisa bayar menggunakan transfer bank?",
+          "Cara bayar menggunakan PayPal gimana?",
+          "Bisa menggunakan e-wallet untuk pembayaran?",
+          "Bayarnya gimana?"
         ],
         "responses": [
-          "i"
+          "Untuk pembayaran, saat ini, kami hanya menerima transfer melalui bank yang kami punya yaitu bank BRI :) Langkah-langkah yang bisa kamu ikuti untuk pembayaran akan muncul setelah kamu memesan layanan yang ada ya, silahkan ikuti langkah tersebut. :)"
         ]
       },
       {
         "tag": "perekrutan",
         "patterns": [
-          "Bagaimana cara menjadi mitra rumahkini?"
+          "Bagaimana cara menjadi mitra rumahkini?",
+          "Cara bergabung?",
+          "Saya berminat gabung",
+          "Saya ingin jadi mitra",
+          "Gimana cara gabung jadi arsitek?",
+          "Jadi mitra gimana caranya?",
+          "Apa syarat untuk menjadi mitra?",
+          "Ingin daftar jadi mitra, bagaimana prosedurnya?",
+          "Bagaimana saya bisa mendaftar sebagai mitra?",
+          "Proses untuk bergabung sebagai mitra itu seperti apa?",
+          "Mau gabung jadi mitra, dari mana mulainya?",
+          "Cara mendaftar jadi arsitek di rumahkini apa saja?",
+          "Saya tertarik menjadi mitra, apa yang perlu saya lakukan?",
+          "Langkah-langkah bergabung sebagai mitra?",
+          "Saya ingin kerja sama sebagai mitra, apa yang harus saya lakukan?",
+          "Gimana ya langkah-langkah untuk bisa jadi mitra?",
+          "Aku ingin jadi bagian dari mitra rumahkini, gimana caranya?",
+          "Cara cepat untuk gabung sebagai mitra rumahkini apa?",
+          "Informasi bergabung menjadi mitra rumahkini?",
+          "Kualifikasi apa yang dibutuhkan untuk menjadi mitra?",
+          "Bagaimana saya dapat bergabung dalam tim mitra rumahkini?"
+          
         ],
         "responses": [
-          "h"
+          "Untuk bergabung menjadi mitra kami, silahkan kunjungi halaman https://rumahkini.com/karir, pada halaman tersebut, apabila ada, pasti terdapat informasi mengenai posisi kemitraan yang sedang kami butuhkan saat ini, silahkan baca mengenai kualifikasi yang dibutuhkan, cara melamar, serta bagaimana prosesnya dengan men-klik posisi yang Anda inginkan, semangat :) "
         ]
       },
       {
@@ -117,6 +152,15 @@
         "tag": "hubungi_kami",
         "patterns": [
           "Untuk paket lengkap dapat apa aja?"
+        ],
+        "responses": [
+          "a"
+        ]
+      },
+      {
+        "tag": "syarat_layanan",
+        "patterns": [
+          "apa aja yang diperluin buat pemesanan?"
         ],
         "responses": [
           "a"
