@@ -1,6 +1,8 @@
 import random
 import json
 import torch
+import time
+from datetime import datetime
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -30,6 +32,8 @@ model.eval()
 bot_name = ""
 
 def get_response(user_input):
+    start_time = time.time()
+    
     sentence = tokenize(user_input)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -42,9 +46,28 @@ def get_response(user_input):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
+    response = "Maaf, saya tidak mengerti :("
     if prob.item() > 0.65:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 response = random.choice(intent['responses'])
-                return f"{bot_name}: {response} (Confidence: {prob.item():.2f})"
-    return f"{bot_name}: Maaf, saya tidak mengerti :( (Confidence: {prob.item():.2f})"
+                break
+    
+    end_time = time.time()
+    response_time = end_time - start_time
+    current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    output_json = {
+        "tag": tag,
+        "response": response,
+        "time_taken_to_respond": response_time,
+        "date_asked": current_date,
+        "question": user_input,
+        "confidence": prob.item()
+    }
+    
+    return output_json
+
+# Example usage
+# user_input = "Hello, how are you?"
+# print(json.dumps(get_response(user_input), indent=4))
