@@ -46,8 +46,8 @@ def get_response(user_input):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    response = "Maaf, saya tidak mengerti :("
-    if prob.item() > 0.65:
+    response = "Mohon ulangi dan lengkapi pertanyaan yang kamu tanyakan :)"
+    if prob.item() > 0.7:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 response = random.choice(intent['responses'])

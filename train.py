@@ -3,10 +3,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-
-
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 import seaborn as sns
 
 from nltk_utils import tokenize, stem, bag_of_words
@@ -102,7 +100,17 @@ def main():
     conf_matrix = confusion_matrix(true_labels, predictions)
     # Calculate the accuracy from the confusion matrix
     accuracy = np.trace(conf_matrix) / np.sum(conf_matrix)
+    precision = precision_score(true_labels, predictions, average='weighted')
+    recall = recall_score(true_labels, predictions, average='weighted')
+    f1 = f1_score(true_labels, predictions, average='weighted')
+    specificity = np.mean(np.diag(conf_matrix) / (np.sum(conf_matrix, axis=1) + np.sum(conf_matrix, axis=0) - np.diag(conf_matrix)))
+
     print(f'Accuracy: {accuracy:.4f}')
+    print(f'Precision: {precision:.4f}')
+    print(f'Recall: {recall:.4f}')
+    print(f'F1 Score: {f1:.4f}')
+    print(f'Specificity: {specificity:.4f}')
+
     plt.figure(figsize=(10, 7))
     sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=tags, yticklabels=tags)
     plt.xlabel('Predicted Labels')

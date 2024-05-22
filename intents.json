@@ -95,7 +95,11 @@
           "Saya ingin memesan, langkahnya bagaimana?"
         ],
         "responses": [
-          "Begini Alur Pemesanan Jasa Konsultasi di Rumah Kini: • Pertama, Kamu bisa pilih tenaga ahli yang diinginkan. • Lalu, kamu harus mengisi data yang diperlukan untuk keperluan tenaga ahli, seperti luas tanah, bangunan, hingga ruangan apa saja nih yang kamu mau. • Nah, setelah isi data, kamu bisa melakukan pembayaran terus menunggu tenaga ahli menerima pesanan jika kamu sudah bayar. • Selanjutnya, baru deh, kamu bisa bercakap dengan tenaga ahli melalui fitur live chat, pastikan semua kebutuhan dan keinginan anda tersampaikan ke tenaga ahli ya. • Setelah chat, tenaga ahli bakal buat desain rumah impian yang kamu! Tenang, kamu bisa revisi desainnya sebanyak 2 kali kok. • Terakhir, kamu baru deh dapat desain akhir hasil konsultasi dari tenaga ahli."
+          "Begini Alur Pemesanan Jasa Konsultasi di Rumah Kini: • Pertama, Kamu bisa pilih tenaga ahli yang diinginkan. • Lalu, kamu harus mengisi data yang diperlukan untuk keperluan tenaga ahli, seperti luas tanah, bangunan, hingga ruangan apa saja nih yang kamu mau. • Nah, setelah isi data, kamu bisa melakukan pembayaran terus menunggu tenaga ahli menerima pesanan jika kamu sudah bayar. • Selanjutnya, baru deh, kamu bisa bercakap dengan tenaga ahli melalui fitur live chat, pastikan semua kebutuhan dan keinginan anda tersampaikan ke tenaga ahli ya. • Setelah chat, tenaga ahli bakal buat desain rumah impian yang kamu! Tenang, kamu bisa revisi desainnya sebanyak 2 kali kok. • Terakhir, kamu baru deh dapat desain akhir hasil konsultasi dari tenaga ahli.",
+          "Begini cara memesan Jasa Konsultasi di Rumah Kini: • Pertama, pilih tenaga ahli yang kamu inginkan. • Isi data yang diperlukan, seperti luas tanah, bangunan, dan ruangan yang diinginkan. • Setelah itu, lakukan pembayaran dan tunggu konfirmasi dari tenaga ahli. • Kamu bisa berkomunikasi dengan tenaga ahli melalui live chat untuk memastikan semua kebutuhan dan keinginanmu tersampaikan. • Tenaga ahli akan membuat desain rumah impianmu, dan kamu bisa merevisi desain tersebut hingga 2 kali. • Akhirnya, kamu akan menerima desain akhir hasil konsultasi.",
+          "Berikut alur pemesanan Jasa Konsultasi di Rumah Kini: • Pilih tenaga ahli yang diinginkan. • Isi data yang diperlukan, seperti luas tanah, bangunan, dan ruangan yang ingin diubah. • Lakukan pembayaran dan tunggu tenaga ahli menerima pesananmu. • Komunikasikan kebutuhan dan keinginanmu melalui live chat. • Tenaga ahli akan membuat desain rumah impianmu, dan kamu bisa melakukan revisi hingga 2 kali. • Kamu akan menerima desain akhir setelah revisi selesai.",
+          "Alur Pemesanan Jasa Konsultasi di Rumah Kini: • Pilih tenaga ahli yang sesuai dengan kebutuhanmu. • Isi data yang dibutuhkan, termasuk luas tanah, bangunan, dan detail ruangan. • Lakukan pembayaran dan tunggu konfirmasi dari tenaga ahli. • Gunakan fitur live chat untuk menyampaikan kebutuhan dan keinginanmu. • Tenaga ahli akan membuat desain rumah sesuai keinginanmu, dengan 2 kali revisi yang diperbolehkan. • Dapatkan desain akhir setelah semua revisi selesai.",
+          "Cara memesan Jasa Konsultasi di Rumah Kini: • Pilih tenaga ahli yang kamu inginkan. • Isi data yang diperlukan, seperti luas tanah dan bangunan. • Lakukan pembayaran dan tunggu konfirmasi pesanan. • Komunikasikan semua kebutuhan dan keinginanmu melalui live chat. • Tenaga ahli akan membuat desain rumah impianmu, dengan opsi revisi sebanyak 2 kali. • Terima desain akhir setelah revisi selesai."
         ]
       },
       {
@@ -132,8 +136,12 @@
           "Bayar pesanan gimana caranya?"
         ],
         "responses": [
-          "Untuk pembayaran, saat ini, kami hanya menerima transfer melalui bank yang kami punya yaitu bank BRI :) Langkah-langkah yang bisa kamu ikuti untuk pembayaran akan muncul setelah kamu memesan layanan yang ada ya, silahkan ikuti langkah tersebut. :)"
-        ]
+          "Untuk pembayaran, saat ini, kami hanya menerima transfer melalui bank yang kami punya yaitu bank BRI :) Langkah-langkah yang bisa kamu ikuti untuk pembayaran akan muncul setelah kamu memesan layanan yang ada ya, silahkan ikuti langkah tersebut. :)",
+          "Saat ini, kami hanya menerima pembayaran melalui transfer bank BRI. Setelah kamu memesan layanan, langkah-langkah pembayaran akan ditampilkan. Silakan ikuti instruksi tersebut dengan seksama. :)",
+          "Kami menerima pembayaran hanya melalui transfer bank BRI. Langkah-langkah pembayaran akan diberikan setelah kamu memesan layanan. Pastikan untuk mengikuti setiap langkah dengan benar. :)",
+          "Pembayaran hanya bisa dilakukan melalui transfer ke bank BRI. Setelah melakukan pemesanan, kamu akan melihat langkah-langkah untuk melakukan pembayaran. Silakan ikuti langkah tersebut untuk menyelesaikan transaksi. :)",
+          "Saat ini, pembayaran hanya dapat dilakukan melalui transfer bank BRI. Langkah-langkah pembayaran akan muncul setelah pemesanan layanan. Pastikan kamu mengikuti setiap langkah dengan teliti. :)"
+        ]        
       },
       {
         "tag": "perekrutan",
@@ -162,8 +170,12 @@
           
         ],
         "responses": [
-          "Untuk bergabung menjadi mitra kami, silahkan kunjungi halaman https://rumahkini.com/karir, pada halaman tersebut, apabila ada, pasti terdapat informasi mengenai posisi kemitraan yang sedang kami butuhkan saat ini, silahkan baca mengenai kualifikasi yang dibutuhkan, cara melamar, serta bagaimana prosesnya dengan men-klik posisi yang Anda inginkan, semangat :) "
-        ]
+          "Untuk bergabung menjadi mitra kami, kunjungi halaman https://rumahkini.com/karir. Di halaman tersebut, jika ada, akan ada informasi mengenai posisi kemitraan yang kami butuhkan saat ini. Silakan baca kualifikasi yang dibutuhkan, cara melamar, dan prosesnya dengan mengklik posisi yang Anda inginkan. Semangat! :)",
+          "Silakan kunjungi halaman https://rumahkini.com/karir untuk bergabung menjadi mitra kami. Di halaman tersebut, jika tersedia, Anda akan menemukan informasi tentang posisi kemitraan yang kami butuhkan saat ini. Baca kualifikasi yang dibutuhkan, cara melamar, dan prosesnya dengan mengklik posisi yang Anda minati. Semangat! :)",
+          "Untuk informasi tentang cara bergabung menjadi mitra kami, kunjungi halaman https://rumahkini.com/karir. Jika ada posisi kemitraan yang tersedia, informasi spesial tentang kualifikasi, cara melamar, dan prosesnya akan ada di sana. Klik posisi yang Anda inginkan dan baca detailnya. Semangat! :)",
+          "Kunjungi halaman https://rumahkini.com/karir untuk bergabung menjadi mitra kami. Jika ada posisi kemitraan yang dibuka, informasi mengenai kualifikasi, cara melamar, dan prosesnya akan tersedia di sana. Klik posisi yang Anda minati dan ikuti petunjuknya. Semangat! :)",
+          "Untuk menjadi mitra kami, silakan kunjungi halaman https://rumahkini.com/karir. Di sana, jika ada posisi kemitraan yang dibutuhkan, Anda akan menemukan informasi tentang kualifikasi, cara melamar, dan prosesnya. Klik posisi yang Anda inginkan dan baca informasinya. Semangat! :)"
+        ]        
       },
       {
         "tag": "konsultasi",
@@ -186,8 +198,12 @@
           "Kapan pesanan desain akhir rumah akan selesai?"
         ],
         "responses": [
-          "Tergantung paket yang kamu pilih, biasanya paket sketsa bisa selesai lebih cepat, sekitar 5-10 hari kerja"
-        ]
+          "Tergantung paket yang kamu pilih, biasanya paket reguler (reguler) bisa selesai lebih cepat, sekitar 5-10 hari kerja. Untuk paket plus (plus), memerlukan waktu sekitar 10-17 hari kerja, dan paket spesial (bundle) sekitar 17-22 hari kerja.",
+          "Durasi penyelesaian tergantung pada paket yang kamu pilih. Paket reguler (reguler) biasanya selesai dalam 5-10 hari kerja, paket plus (plus) memerlukan 10-17 hari kerja, dan paket spesial (bundle) sekitar 17-22 hari kerja.",
+          "Paket yang kamu pilih akan menentukan durasi penyelesaian. Paket reguler (reguler) biasanya membutuhkan 5-10 hari kerja, paket plus (plus) sekitar 10-17 hari kerja, dan paket spesial (bundle) memerlukan waktu 17-22 hari kerja.",
+          "Waktu penyelesaian tergantung pada paket pilihanmu. Paket reguler (reguler) biasanya selesai dalam 5-10 hari kerja, sedangkan paket plus (plus) memerlukan 10-17 hari kerja, dan paket spesial (bundle) sekitar 17-22 hari kerja.",
+          "Biasanya, paket reguler (reguler) bisa selesai lebih cepat, sekitar 5-10 hari kerja. Paket plus (plus) membutuhkan waktu sekitar 10-17 hari kerja, dan paket spesial (bundle) sekitar 17-22 hari kerja."
+        ]        
       },
       {
         "tag": "rumahkini",
@@ -210,8 +226,13 @@
           "Apa yang bisa saya dapatkan saat memesan rumahkini?"
         ],
         "responses": [
-          "f"
+          "Rumahkini dibentuk pada tahun 2022 sebagai platform yang siap membantu kamu mewujudkan desain rumah impian sesuai dengan imajinasi dan keinginan kamu. Di Rumahkini, kamu bisa langsung berkonsultasi dengan tenaga ahli yang handal dan terpercaya. Kami memastikan setiap desain yang dibuat memenuhi standar pembangunan yang tinggi, sehingga kamu bisa memiliki rumah yang tidak hanya indah, tetapi juga aman dan kokoh. Bagaimana kami bisa membantu kamu hari ini?",
+          "Rumahkini adalah platform yang didirikan pada tahun 2022 untuk membantu kamu mendesain rumah sesuai dengan imajinasi dan keinginanmu. Kami menyediakan konsultasi dengan tenaga ahli yang berpengalaman untuk memastikan rumahmu sesuai dengan standar pembangunan.",
+          "Sejak didirikan pada tahun 2022, Rumahkini telah menjadi platform yang membantu kamu mewujudkan desain rumah impian. Kami menawarkan konsultasi dengan tenaga ahli yang profesional untuk memastikan desain rumahmu indah, aman, dan kokoh.",
+          "Didirikan pada tahun 2022, Rumahkini bertujuan untuk membantu kamu menciptakan desain rumah sesuai dengan imajinasi dan keinginanmu. Kami bekerja sama dengan tenaga ahli terpercaya untuk memastikan setiap desain memenuhi standar pembangunan yang tinggi.",
+          "Rumahkini, yang didirikan pada tahun 2022, adalah platform yang siap membantu kamu mendesain rumah impianmu. Dengan konsultasi dari tenaga ahli yang berpengalaman, kami memastikan setiap desain rumah memenuhi standar pembangunan yang tinggi, sehingga aman dan kokoh."
         ]
+        
       },
       {
         "tag": "harga",
@@ -235,86 +256,98 @@
           "Mau tau harganya dulu dong"
         ],
         "responses": [
-          "e"
-        ]
+          "Di Rumahkini, rentang harga bervariasi tergantung pada tingkat keahlian, portofolio, serta keputusan tenaga ahli. Harga layanan berkisar antara Rp10.000 hingga Rp100.000, memberikan pilihan yang sesuai dengan kebutuhan dan anggaran Anda.",
+          "Harga layanan di Rumahkini bervariasi sesuai dengan tingkat keahlian, portofolio, dan keputusan tenaga ahli. Rentang harga yang ditawarkan adalah antara Rp10.000 hingga Rp100.000, sehingga Anda dapat memilih sesuai dengan kebutuhan dan anggaran.",
+          "Rentang harga di Rumahkini ditentukan oleh tingkat keahlian, portofolio, dan keputusan tenaga ahli. Harga layanan berkisar dari Rp10.000 hingga Rp100.000, menyediakan berbagai pilihan yang cocok untuk kebutuhan dan anggaran Anda.",
+          "Di Rumahkini, harga layanan bervariasi berdasarkan tingkat keahlian, portofolio, dan keputusan tenaga ahli. Dengan rentang harga antara Rp10.000 hingga Rp100.000, Anda dapat menemukan pilihan yang sesuai dengan kebutuhan dan anggaran.",
+          "Harga layanan di Rumahkini dipengaruhi oleh tingkat keahlian, portofolio, dan keputusan tenaga ahli. Rentang harga mulai dari Rp10.000 hingga Rp100.000, menawarkan berbagai pilihan yang sesuai dengan kebutuhan dan anggaran Anda."
+        ]        
       },
       {
-        "tag": "paket_sketsa",
+        "tag": "paket_reguler",
         "patterns": [
-          "Untuk paket sketsa dapat apa aja?",
-          "Apa saja yang termasuk dalam paket sketsa?",
-          "Untuk paket sketsa, apa yang didapat?",
-          "Isi paket sketsa apa saja?",
-          "Paket sketsa mencakup apa saja?",
-          "Apa saja yang ada di paket sketsa?",
-          "Untuk paket sketsa, apa yang disertakan?",
-          "Untuk paket sketsa, apa saja yang termasuk?",
-          "Paket sketsa berisi apa saja?",
-          "Untuk paket sketsa, apa saja yang diberikan?",
-          "Paket sketsa menyediakan apa saja?",
-          "Apa yang didapatkan dalam paket sketsa?",
-          "Apa yang termasuk di dalam paket sketsa?",
-          "Apa saja isi paket sketsa?",
-          "Untuk paket sketsa, apa saja yang diperoleh?"
+          "Untuk paket reguler dapat apa aja?",
+          "Apa saja yang termasuk dalam paket reguler sketsa?",
+          "Untuk paket reguler, apa yang didapat?",
+          "Isi paket reguler apa saja?",
+          "Paket reguler mencakup apa saja?",
+          "Apa saja yang ada di paket reguler?",
+          "Untuk paket reguler, apa yang disertakan?",
+          "Untuk paket reguler, apa saja yang termasuk?",
+          "Paket reguler berisi apa saja?",
+          "Untuk paket reguler, apa saja yang diberikan?",
+          "Paket reguler menyediakan apa saja?",
+          "Apa yang didapatkan dalam paket reguler?",
+          "Apa yang termasuk di dalam paket reguler?",
+          "Apa saja isi paket reguler sketsa?",
+          "Untuk paket reguler (sketsa), apa saja yang diperoleh?"
         ],
         "responses": [
-          "d"
-        ]
+          "Untuk Paket Reguler, kamu akan mendapatkan beberapa layanan penting yang mencakup gambar denah, yang memberikan rencana tata letak ruangan secara detail; gambar tampak 3D dari berbagai sudut pandang (1-5 tampak), yang memberikan visualisasi tiga dimensi dari desain rumah; gambar detail tampak dari setiap sisi bangunan untuk menunjukkan elemen desain secara mendalam; serta gambar potongan yang menunjukkan penampang bangunan dan struktur internal. Dengan paket ini, kamu akan memiliki panduan spesial dan visualisasi yang jelas untuk mewujudkan rumah impianmu.",
+          "Paket Reguler mencakup beberapa layanan penting seperti gambar denah yang merinci tata letak ruangan, gambar tampak 3D dari berbagai sudut pandang (1-5 tampak) untuk visualisasi tiga dimensi, gambar detail tampak dari setiap sisi bangunan untuk menunjukkan elemen desain secara mendalam, dan gambar potongan yang memperlihatkan penampang bangunan dan struktur internal. Paket ini memberikan panduan spesial dan visualisasi yang jelas untuk rumah impianmu.",
+          "Dengan Paket Reguler, kamu akan mendapatkan gambar denah yang merinci tata letak ruangan, gambar tampak 3D dari berbagai sudut pandang (1-5 tampak) untuk visualisasi tiga dimensi, gambar detail tampak dari setiap sisi bangunan, dan gambar potongan yang menunjukkan penampang bangunan dan struktur internal. Paket ini menawarkan panduan spesial dan visualisasi yang jelas untuk membantu mewujudkan rumah impianmu.",
+          "Paket Reguler memberikan beberapa layanan penting termasuk gambar denah untuk tata letak ruangan secara detail, gambar tampak 3D dari berbagai sudut pandang (1-5 tampak) untuk visualisasi tiga dimensi, gambar detail tampak dari setiap sisi bangunan untuk elemen desain mendalam, dan gambar potongan yang menunjukkan penampang bangunan dan struktur internal. Paket ini menyediakan panduan spesial dan visualisasi yang jelas untuk desain rumah impianmu.",
+          "Dalam Paket Reguler, kamu akan mendapatkan gambar denah yang merinci tata letak ruangan, gambar tampak 3D dari berbagai sudut pandang (1-5 tampak) untuk visualisasi tiga dimensi, gambar detail tampak dari setiap sisi bangunan untuk elemen desain yang mendalam, dan gambar potongan yang menunjukkan penampang bangunan dan struktur internal. Paket ini memberikan panduan spesial dan visualisasi yang jelas untuk mewujudkan rumah impianmu."
+        ]        
       },
       {
-        "tag": "paket_blueprint",
+        "tag": "paket_plus",
         "patterns": [
-          "Untuk paket blueprint dapat apa aja?",
-          "Apa saja yang termasuk dalam paket blueprint?",
-          "Untuk paket blueprint, apa yang didapat?",
-          "Isi paket blueprint apa saja?",
-          "Paket blueprint mencakup apa saja?",
-          "Apa saja yang ada di paket blueprint?",
-          "Untuk paket blueprint, apa yang disertakan?",
-          "Untuk paket blueprint, apa saja yang termasuk?",
-          "Paket blueprint berisi apa saja?",
-          "Untuk paket blueprint, apa saja yang diberikan?",
-          "Paket blueprint menyediakan apa saja?",
-          "Apa yang didapatkan dalam paket blueprint?",
-          "Apa yang termasuk di dalam paket blueprint?",
-          "Apa saja isi paket blueprint?",
-          "Untuk paket blueprint, apa saja yang diperoleh?"
+          "Untuk paket plus dapat apa aja?",
+          "Apa saja yang termasuk dalam paket plus?",
+          "Untuk paket plus, apa yang didapat?",
+          "Isi paket plus apa saja?",
+          "Paket plus mencakup apa saja?",
+          "Apa saja yang ada di paket plus?",
+          "Untuk paket plus, apa yang disertakan?",
+          "Untuk paket plus, apa saja yang termasuk?",
+          "Paket plus berisi apa saja?",
+          "Untuk paket plus, apa saja yang diberikan?",
+          "Paket plus menyediakan apa saja?",
+          "Apa yang didapatkan dalam paket plus?",
+          "Apa yang termasuk di dalam paket plus?",
+          "Apa saja isi paket plus?",
+          "Untuk paket plus, apa saja yang diperoleh?"
         ],
         "responses": [
-          "c"
-        ]
+          "Untuk Paket Plus, tenaga ahli akan melanjutkan gambar teknis dari desain rumah yang sudah ada. Pastikan kamu menyiapkan sketsa awal rumah, seperti denah, tampak, dan potongan yang terdokumentasi dengan baik. Tenaga ahli akan memperinci gambar tersebut. Informasi spesial tentang Paket Plus bisa kamu lihat di sini: https://rumahkini.com/paket-desain-rumah.",
+          "Dalam Paket Plus, tenaga ahli akan melanjutkan gambar teknis dari desain rumah kamu. Oleh karena itu, kamu harus menyiapkan sketsa awal rumah, termasuk denah, tampak, dan potongan yang terdokumentasi dengan baik. Tenaga ahli akan menggambar detail dari desain tersebut. Untuk info lebih lanjut tentang Paket Plus, kunjungi: https://rumahkini.com/paket-desain-rumah.",
+          "Tenaga ahli akan melanjutkan gambar teknis dari desain rumah kamu dalam Paket Plus. Pastikan untuk menyediakan sketsa awal rumah seperti denah, tampak, dan potongan yang terdokumentasi dengan baik. Tenaga ahli akan memperinci gambar tersebut lebih lanjut. Detail tentang apa yang kamu dapatkan dalam Paket Plus bisa dilihat di sini: https://rumahkini.com/paket-desain-rumah.",
+          "Paket Plus mencakup lanjutan gambar teknis dari desain rumah yang sudah ada. Kamu perlu menyiapkan sketsa awal rumah seperti denah, tampak, dan potongan yang terdokumentasi dengan baik. Tenaga ahli akan merinci gambar tersebut lebih lanjut. Informasi spesial tentang Paket Plus tersedia di sini: https://rumahkini.com/paket-desain-rumah.",
+          "Dengan Paket Plus, tenaga ahli akan melanjutkan gambar teknis dari desain rumah kamu. Pastikan kamu sudah memiliki sketsa awal rumah, seperti denah, tampak, dan potongan yang terdokumentasi dengan baik. Tenaga ahli akan mengerjakan gambar tersebut lebih detail. Untuk informasi spesial tentang Paket Plus, kunjungi: https://rumahkini.com/paket-desain-rumah."
+        ]        
       },
       {
-        "tag": "paket_sketsa_blueprint",
+        "tag": "paket_spesial",
         "patterns": [
-          "Untuk paket lengkap dapat apa aja?",
-          "Apa saja yang termasuk dalam paket lengkap/bundle?",
-          "Untuk paket lengkap/bundle, apa yang didapat?",
-          "Isi paket lengkap/bundle apa saja?",
-          "Paket lengkap/bundle mencakup apa saja?",
-          "Apa saja yang ada di paket lengkap/bundle?",
-          "Untuk paket lengkap/bundle, apa yang disertakan?",
-          "Untuk paket lengkap/bundle, apa saja yang termasuk?",
-          "Paket lengkap/bundle berisi apa saja?",
-          "Untuk paket lengkap/bundle, apa saja yang diberikan?",
-          "Paket lengkap/bundle menyediakan apa saja?",
-          "Apa yang didapatkan dalam paket lengkap/bundle?",
-          "Apa yang termasuk di dalam paket lengkap/bundle?",
-          "Apa saja isi paket lengkap/bundle?",
-          "Untuk paket lengkap/bundle, apa saja yang diperoleh?",
-          "Apa bedanya paket bundle sama paket blueprint?"
+          "Untuk paket spesial dapat apa aja?",
+          "Apa saja yang termasuk dalam paket spesial/bundle?",
+          "Untuk paket spesial/bundle, apa yang didapat?",
+          "Isi paket spesial/bundle apa saja?",
+          "Paket spesial/bundle mencakup apa saja?",
+          "Apa saja yang ada di paket spesial/bundle?",
+          "Untuk paket spesial/bundle, apa yang disertakan?",
+          "Untuk paket spesial/bundle, apa saja yang termasuk?",
+          "Paket spesial/bundle berisi apa saja?",
+          "Untuk paket spesial/bundle, apa saja yang diberikan?",
+          "Paket spesial/bundle menyediakan apa saja?",
+          "Apa yang didapatkan dalam paket spesial/bundle?",
+          "Apa yang termasuk di dalam paket spesial/bundle?",
+          "Apa saja isi paket spesial/bundle?",
+          "Untuk paket spesial/bundle, apa saja yang diperoleh?",
+          "Apa bedanya paket bundle sama paket plus?"
         ],
         "responses": [
-          "b"
-        ]
+          "Dengan Paket Spesial, kamu akan mendapatkan desain rumah lengkap, mulai dari denah hingga rencana anggaran biaya (RAB) untuk rumah impianmu. Jadi, kamu bisa santai dan menyampaikan keinginanmu kepada tenaga ahli. Untuk melihat semua yang akan kamu dapatkan, kunjungi: https://rumahkini.com/paket-desain-rumah.",
+          "Paket Spesial menawarkan desain rumah lengkap, termasuk denah dan rencana anggaran biaya (RAB) untuk rumah impianmu. Kamu hanya perlu duduk santai dan memberitahu tenaga ahli tentang keinginanmu. Semua yang akan kamu dapatkan bisa dilihat di sini: https://rumahkini.com/paket-desain-rumah.",
+          "Dengan memilih Paket Spesial, kamu akan menerima desain rumah yang lengkap, dari denah hingga rencana anggaran biaya (RAB). Kamu tinggal duduk santai dan mengomunikasikan keinginanmu kepada tenaga ahli. Lihat semua detail yang akan kamu dapatkan di sini: https://rumahkini.com/paket-desain-rumah.",
+          "Paket Spesial memberikan desain rumah lengkap, mulai dari denah hingga rencana anggaran biaya (RAB). Kamu hanya perlu bersantai dan memberitahu tenaga ahli tentang kebutuhan dan keinginanmu. Informasi lengkap tentang apa saja yang kamu dapatkan tersedia di: https://rumahkini.com/paket-desain-rumah.",
+          "Dengan Paket Spesial, kamu akan mendapatkan desain rumah secara lengkap, termasuk denah dan rencana anggaran biaya (RAB). Kamu hanya perlu duduk manis dan menyampaikan keinginanmu kepada tenaga ahli. Semua detail paket bisa dilihat di sini: https://rumahkini.com/paket-desain-rumah."
+        ]        
       },
       {
         "tag": "hubungi_kami",
         "patterns": [
-          "Apakah ada customer service-nya?",
-          "Saya punya keluhan",
-          "Saya ingin menghubungi cs",
-          "Ada layanan pelanggan?",
           "Bagaimana cara menghubungi customer service?",
           "Saya ingin berbicara dengan customer service",
           "Bagaimana cara menghubungi cs?",
@@ -344,11 +377,27 @@
           "Ini kok gajadi-jadi desain saya, gimana ya?",
           "Tolong dong gimana nih arsiteknya ga merespon?",
           "Pengen laporin desain saya belum juga dikirim, kemana ya?",
-          "Saya punya keluhan, mau lapor ke cs, gimana caranya?"
-        ],
+          "Saya punya keluhan, mau lapor ke cs, gimana caranya?",
+          "Ada layanan customer service?",
+          "Bagaimana cara menghubungi bagian layanan pelanggan?",
+          "Dimana saya bisa menghubungi cs?",
+          "Bagaimana cara menghubungi tim dukungan pelanggan?",
+          "Saya ada keluhan, bisa hubungi cs?",
+          "Bagaimana saya bisa menghubungi dukungan pelanggan?",
+          "Ada nomor kontak customer service?",
+          "Bagaimana cara menghubungi customer service untuk keluhan?",
+          "Saya ingin menyampaikan keluhan, bagaimana caranya?",
+          "Apakah ada cara untuk menghubungi customer service?",
+          "Saya perlu menghubungi customer service untuk keluhan"
+      ],
         "responses": [
-          "a"
+          "Jika kamu punya keluhan atau butuh bantuan lebih lanjut, kamu bisa menghubungi CS kami melalui WhatsApp di nomor 081260004256.",
+          "Untuk keluhan atau bantuan lebih lanjut, hubungi CS kami melalui WhatsApp di nomor 081260004256.",
+          "Kamu bisa menghubungi CS kami melalui WhatsApp di nomor 081260004256 jika memiliki keluhan atau memerlukan bantuan lebih lanjut.",
+          "Jika ada keluhan atau memerlukan bantuan tambahan, hubungi CS kami melalui WhatsApp di nomor 081260004256.",
+          "Untuk keluhan atau bantuan lebih lanjut, silakan hubungi CS kami melalui WhatsApp di nomor 081260004256."
         ]
+        
       },
       {
         "tag": "syarat_layanan",
@@ -370,8 +419,13 @@
           "Apa saja yang perlu dipersiapkan untuk pemesanan?"
         ],
         "responses": [
-          "a"
+          "Untuk memesan desain rumah, pastikan kamu menyiapkan informasi tentang luas bangunan dan dimensi tanah. Jika ada, sertakan juga IMB (Izin Mendirikan Bangunan) agar tenaga ahli bisa membuat desain dengan lebih akurat. Jangan lupa, ketahui kebutuhan ruangan yang kamu inginkan agar sesuai dengan kebutuhan kamu serta perkirakan anggaran yang tersedia untuk membangun rumah impianmu.",
+          "Saat memesan desain rumah, pastikan untuk menyediakan informasi tentang luas bangunan dan dimensi tanah. Sertakan juga IMB (Izin Mendirikan Bangunan) jika ada, untuk membantu tenaga ahli membuat desain yang akurat. Jangan lupa untuk menentukan kebutuhan ruangan dan memperkirakan anggaran yang tersedia untuk rumah impianmu.",
+          "Pastikan kamu menyiapkan informasi mengenai luas bangunan dan dimensi tanah saat memesan desain rumah. Sertakan juga IMB (Izin Mendirikan Bangunan) jika ada, agar desain dapat dibuat dengan lebih akurat. Ketahui kebutuhan ruangan yang diinginkan dan perkirakan anggaran yang tersedia untuk pembangunan rumah impianmu.",
+          "Untuk memesan desain rumah, siapkan informasi tentang luas bangunan dan dimensi tanah. Jika ada, jangan lupa sertakan IMB (Izin Mendirikan Bangunan) untuk membantu tenaga ahli membuat desain yang tepat. Tentukan kebutuhan ruangan dan perkirakan anggaran yang tersedia untuk membangun rumah impianmu.",
+          "Sebelum memesan desain rumah, pastikan kamu sudah menyiapkan informasi tentang luas bangunan dan dimensi tanah. Sertakan IMB (Izin Mendirikan Bangunan) jika ada, untuk akurasi desain. Ketahui kebutuhan ruanganmu dan perkirakan anggaran yang kamu miliki untuk membangun rumah impianmu."
         ]
+        
       }
     ]
   }
