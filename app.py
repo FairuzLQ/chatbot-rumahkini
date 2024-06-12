@@ -4,6 +4,7 @@ from chat import get_response
 import logging
 import time
 from datetime import datetime, timedelta
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -63,5 +64,5 @@ def status():
     return jsonify(status_info), 200
 
 if __name__ == "__main__":
-    print("Server is running...")
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 8000))
+    app.run(host='0.0.0.0', port=port, debug=True)
