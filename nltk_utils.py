@@ -1,8 +1,12 @@
 import nltk
-#nltk.download('punkt')
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-# from nltk.stem.porter import PorterStemmer
 import numpy as np
+import os
+
+# Ensure NLTK punkt tokenizer is downloaded
+nltk_data_path = os.path.join(os.path.expanduser('~'), 'nltk_data')
+if not os.path.exists(os.path.join(nltk_data_path, 'tokenizers', 'punkt')):
+    nltk.download('punkt', download_dir=nltk_data_path)
 
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
@@ -20,12 +24,3 @@ def bag_of_words(tokenized_sentence, all_words):
         if w in tokenized_sentence:
             bag[idx] = 1.0
     return bag
-
-#sentence = ["hello", "how","are","you","thank","you"]
-#words = ["hi","hello","I","you","bye","thank","cool"]
-#bog = bag_of_words(sentence, words)
-
-#print(bog)
-
-
-

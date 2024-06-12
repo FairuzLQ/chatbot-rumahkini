@@ -5,6 +5,7 @@ import logging
 import time
 from datetime import datetime, timedelta
 import os
+import nltk_utils
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
