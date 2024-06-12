@@ -6,3 +6,5 @@ __pycache__/
 
 # Ignore log files
 chatbot.log
+
+.vscode
