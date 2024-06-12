@@ -5,7 +5,7 @@ import logging
 import time
 from datetime import datetime, timedelta
 import os
-import nltk_utils
+import nltk
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -15,6 +15,11 @@ start_time = time.time()
 
 # Count the number of requests to the /predict endpoint
 predict_request_count = 0
+
+# Ensure NLTK punkt tokenizer is downloaded
+nltk_data_path = os.path.join(os.path.expanduser('~'), 'nltk_data')
+if not os.path.exists(os.path.join(nltk_data_path, 'tokenizers', 'punkt')):
+    nltk.download('punkt', download_dir=nltk_data_path)
 
 @app.before_request
 def before_request():
