@@ -56,16 +56,16 @@
         "Hai, saya perlu informasi."
       ],
       "responses": [
-        "Hai, senang bertemu dengan Anda, perlu bantuan?",
-        "Halo, Selamat datang, ada yang bisa saya bantu?",
-        "Halo, ada sesuatu yang ingin ditanyakan?",
-        "Salam kenal :) ada yang ingin ditanyakan?",
-        "Hai, perlu bantuan? :)",
-        "Halo, silahkan bertanya ke saya :)",
-        "Hai, ada yang bisa saya bantu?",
-        "Halo, butuh bantuan?",
-        "Salam kenal, apa yang bisa saya bantu?",
-        "Hai, ada yang ingin ditanyakan?"
+        "Hai, senang bertemu dengan Anda, perlu bantuan? \n\nPilih salah satu menu di bawah atau ketik pertanyaan kamu.",
+        "Halo, Selamat datang, ada yang bisa saya bantu? \n\nKamu bisa memilih menu di bawah atau mengetik pertanyaan kamu.",
+        "Halo, ada sesuatu yang ingin ditanyakan? \n\nSilakan pilih menu di bawah ini atau ajukan pertanyaan kamu.",
+        "Salam kenal :) ada yang ingin ditanyakan? \n\nPilih menu di bawah atau tulis pertanyaan kamu.",
+        "Hai, perlu bantuan? :) \n\nKamu bisa pilih menu di bawah atau mengetikkan pertanyaan kamu.",
+        "Halo, silahkan bertanya ke saya :) \n\nPilih dari menu di bawah atau tulis pertanyaan yang ingin kamu tanyakan.",
+        "Hai, ada yang bisa saya bantu? \n\nPilih dari menu yang tersedia di bawah atau ajukan pertanyaan kamu.",
+        "Halo, butuh bantuan? \n\nPilih dari menu yang tersedia di bawah atau ajukan pertanyaan kamu.",
+        "Salam kenal, apa yang bisa saya bantu? \n\nSilakan pilih opsi di bawah atau ketik pertanyaan kamu.",
+        "Hai, ada yang ingin ditanyakan? \n\nPilih menu di bawah atau tulis pertanyaan kamu."
       ]
     },
     {
@@ -302,7 +302,9 @@
         "Kapan desain rumah akan dikirim ke saya?",
         "Berapa lama pengerjaan desain rumah?",
         "Kapan desain rumah selesai dibuat?",
-        "Berapa lama desain rumah akan sampai ke saya?"
+        "Berapa lama desain rumah akan sampai ke saya?",
+        "Lama Pengerjaan",
+        "Waktu Menunggu Pesanan"
       ],
       "responses": [
         "Tergantung paket yang kamu pilih, biasanya paket reguler (reguler) bisa selesai lebih cepat, sekitar 5-10 hari kerja.\n\nUntuk paket plus (plus), memerlukan waktu sekitar 10-17 hari kerja, dan paket spesial (bundle) sekitar 17-22 hari kerja.",
@@ -399,7 +401,8 @@
         "Harga paketnya berapa?",
         "Ini harganya sekitar berapaan ya?",
         "Kalo arsitek yang punya sertifikat harganya berapaan min?",
-        "Harga arsiteknya kira-kira berapaan ya?"
+        "Harga arsiteknya kira-kira berapaan ya?",
+        "Harga Layanan"
       ],
       "responses": [
         "Di Rumahkini, rentang harga bervariasi tergantung pada tingkat keahlian, portofolio, serta keputusan tenaga ahli.\n\nHarga layanan berkisar antara Rp10.000 hingga Rp100.000, memberikan pilihan yang sesuai dengan kebutuhan dan anggaran Anda.\n\nKami juga menawarkan Paket Reguler mulai dari Rp10.000 per m2, Paket Plus mulai dari Rp35.000 per m2, dan Paket Spesial mulai dari Rp45.000 per m2.",
@@ -436,6 +439,7 @@
         "saya bisa pesan apa di rumahkini?",
         
         "layanan",
+        "layanan rumahkini",
         "Layanan apa aja yang tersedia?",
         "rumahkini menawarkan apa?",
         "paket apa yang ada?",
@@ -474,17 +478,17 @@
         "saya mau pesan layanan, ada apa aja?"
       ],
       "responses": [
-        "Rumahkini menyediakan berbagai layanan desain rumah, mulai dari denah dan tampak rumah hingga gambar detail serta RAB. Kami memiliki tiga paket layanan: Paket Reguler, Paket Plus, dan Paket Spesial. Silakan pilih menu di bawah ini untuk informasi lebih lanjut.",
-        "Kami di Rumahkini menyediakan layanan desain rumah yang meliputi denah, tampak rumah, gambar detail, dan RAB. Ada tiga pilihan paket: Paket Reguler, Paket Plus, dan Paket Spesial. Pilih menu di bawah untuk detail lebih lanjut.",
-        "Rumahkini menawarkan layanan desain rumah yang komprehensif, termasuk denah, tampak rumah, gambar detail, dan RAB. Paket kami meliputi Paket Reguler, Paket Plus, dan Paket Spesial. Untuk informasi lebih lanjut, silakan pilih menu di bawah ini.",
-        "Di Rumahkini, kami menyediakan layanan desain rumah mulai dari denah dan tampak rumah hingga gambar detail dan RAB. Kami menawarkan tiga paket: Paket Reguler, Paket Plus, dan Paket Spesial. Klik menu di bawah untuk lebih banyak informasi.",
-        "Rumahkini menyediakan berbagai layanan desain rumah, dari denah hingga gambar detail dan RAB. Kami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. Pilih menu di bawah ini untuk info lebih lanjut.",
-        "Kami di Rumahkini menyediakan layanan desain rumah termasuk denah, tampak rumah, gambar detail, dan RAB. Paket yang tersedia adalah Paket Reguler, Paket Plus, dan Paket Spesial. Untuk detail lebih lanjut, pilih menu di bawah ini.",
-        "Rumahkini menawarkan layanan desain rumah lengkap, termasuk denah, tampak rumah, gambar detail, dan RAB. Kami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. Silakan pilih menu di bawah untuk informasi lebih lanjut.",
-        "Di Rumahkini, kami menyediakan layanan desain rumah dari denah hingga gambar detail dan RAB. Kami menawarkan Paket Reguler, Paket Plus, dan Paket Spesial. Klik menu di bawah untuk informasi lebih lanjut.",
-        "Rumahkini menyediakan layanan desain rumah mulai dari denah, tampak rumah, gambar detail, hingga RAB. Kami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. Pilih menu di bawah untuk info lebih lanjut.",
-        "Kami di Rumahkini menyediakan layanan desain rumah yang lengkap, dari denah dan tampak rumah hingga gambar detail serta RAB. Paket kami meliputi Paket Reguler, Paket Plus, dan Paket Spesial. Silakan pilih menu di bawah ini untuk informasi lebih lanjut.",
-        "Rumahkini menawarkan berbagai layanan desain rumah, termasuk denah, tampak rumah, gambar detail, dan RAB. Kami memiliki tiga paket layanan: Paket Reguler, Paket Plus, dan Paket Spesial. Untuk info lebih lanjut, pilih menu di bawah ini."
+        "Rumahkini menyediakan berbagai layanan desain rumah, mulai dari denah dan tampak rumah hingga gambar detail serta RAB. \n\nKami memiliki tiga paket layanan: Paket Reguler, Paket Plus, dan Paket Spesial. \n\nSilakan pilih menu di bawah ini untuk informasi lebih lanjut.",
+        "Kami di Rumahkini menyediakan layanan desain rumah yang meliputi denah, tampak rumah, gambar detail, dan RAB. \n\nAda tiga pilihan paket: Paket Reguler, Paket Plus, dan Paket Spesial. \n\nPilih menu di bawah untuk detail lebih lanjut.",
+        "Rumahkini menawarkan layanan desain rumah yang komprehensif, termasuk denah, tampak rumah, gambar detail, dan RAB. \n\nPaket kami meliputi Paket Reguler, Paket Plus, dan Paket Spesial. \n\nUntuk informasi lebih lanjut, silakan pilih menu di bawah ini.",
+        "Di Rumahkini, kami menyediakan layanan desain rumah mulai dari denah dan tampak rumah hingga gambar detail dan RAB. \n\nKami menawarkan tiga paket: Paket Reguler, Paket Plus, dan Paket Spesial. \n\nKlik menu di bawah untuk lebih banyak informasi.",
+        "Rumahkini menyediakan berbagai layanan desain rumah, dari denah hingga gambar detail dan RAB. \n\nKami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. \n\nPilih menu di bawah ini untuk info lebih lanjut.",
+        "Kami di Rumahkini menyediakan layanan desain rumah termasuk denah, tampak rumah, gambar detail, dan RAB. \n\nPaket yang tersedia adalah Paket Reguler, Paket Plus, dan Paket Spesial. \n\nUntuk detail lebih lanjut, pilih menu di bawah ini.",
+        "Rumahkini menawarkan layanan desain rumah lengkap, termasuk denah, tampak rumah, gambar detail, dan RAB. \n\nKami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. \n\nSilakan pilih menu di bawah untuk informasi lebih lanjut.",
+        "Di Rumahkini, kami menyediakan layanan desain rumah dari denah hingga gambar detail dan RAB. \n\nKami menawarkan Paket Reguler, Paket Plus, dan Paket Spesial. \n\nKlik menu di bawah untuk informasi lebih lanjut.",
+        "Rumahkini menyediakan layanan desain rumah mulai dari denah, tampak rumah, gambar detail, hingga RAB. \n\nKami memiliki Paket Reguler, Paket Plus, dan Paket Spesial. \n\nPilih menu di bawah untuk info lebih lanjut.",
+        "Kami di Rumahkini menyediakan layanan desain rumah yang lengkap, dari denah dan tampak rumah hingga gambar detail serta RAB. \n\nPaket kami meliputi Paket Reguler, Paket Plus, dan Paket Spesial. \n\nSilakan pilih menu di bawah ini untuk informasi lebih lanjut.",
+        "Rumahkini menawarkan berbagai layanan desain rumah, termasuk denah, tampak rumah, gambar detail, dan RAB. \n\nKami memiliki tiga paket layanan: Paket Reguler, Paket Plus, dan Paket Spesial. \n\nUntuk info lebih lanjut, pilih menu di bawah ini."
       ]
     },
     {
@@ -871,6 +875,7 @@
     {
       "tag": "runi",
       "patterns": [
+        "tentang runi",
         "kamu siapa?",
         "kenalan dong sama saya",
         "kamu ini apa ya",
@@ -883,12 +888,10 @@
         "siapa namamu?",
         "apa kamu punya nama?",
         "apa fungsi kamu?",
-        "kamu bisa ngapain?",
         "siapa yang membuat kamu?",
         "kamu berasal dari mana?",
         "apa kamu punya tujuan?",
         "apa tujuan kamu diciptakan?",
-        "kamu bisa bantu apa?",
         "bisa cerita tentang kamu?",
         "kenapa kamu ada di sini?",
         "apa kamu bisa berpikir?",
@@ -945,19 +948,20 @@
         "apa yang kamu bisa lakukan?",
         "apa yang kamu bisa bantu untuk saya?",
         "saya bisa ngapain aja disini?",
-        "emang saya bisa chat apa disini?"
+        "emang saya bisa chat apa disini?",
+        "kamu bisa bantu ngapain?"
       ],
       "responses": [
-        "Aku di sini bisa membantu kamu dengan berbagai informasi mengenai Rumahkini, seperti layanan yang tersedia, kisaran harga, cara memesan, metode pembayaran, dan lainnya. Kamu ingin tahu yang mana? Silakan pilih dari menu di bawah ini ya.",
-        "Hai, aku bisa memberikan kamu informasi tentang Rumahkini, seperti layanan yang kami tawarkan, kisaran harga, cara memesan, metode pembayaran, dan lain-lain. Ada yang ingin kamu tanyakan? Pilih menu di bawah ini ya.",
-        "Aku dapat membantu kamu dengan informasi seputar Rumahkini, termasuk layanan kami, harga, cara pesan, metode pembayaran, dan sebagainya. Apa yang ingin kamu ketahui? Pilih dari menu di bawah ini ya.",
-        "Aku siap membantu kamu dengan informasi tentang Rumahkini, seperti jenis layanan, kisaran harga, cara melakukan pemesanan, metode pembayaran, dan lainnya. Ada yang ingin kamu tahu? Pilih dari menu di bawah ini ya.",
-        "Halo, aku di sini untuk memberikan informasi mengenai Rumahkini, seperti layanan yang kami sediakan, kisaran harga, cara memesan, metode pembayaran, dan lainnya. Apa yang ingin kamu tanyakan? Silakan pilih dari menu di bawah ini ya.",
-        "Aku di sini bisa bantu kamu dengan informasi-informasi mengenai Rumahkini, termasuk layanan yang tersedia, kisaran harga, cara pesan, cara bayar, dan lain-lain. Kamu ingin tahu apa? Pilih dari menu di bawah ini ya.",
-        "Halo, aku bisa membantu kamu dengan berbagai informasi tentang Rumahkini, seperti layanan yang kami tawarkan, harga, cara memesan, metode pembayaran, dan lainnya. Ada yang ingin kamu tanyakan? Silakan pilih dari menu di bawah ini ya.",
-        "Aku siap membantu kamu dengan informasi seputar Rumahkini, mulai dari layanan yang kami sediakan, kisaran harga, cara memesan, hingga metode pembayaran. Apa yang ingin kamu ketahui? Pilih dari menu di bawah ini ya.",
-        "Selamat datang! Aku dapat memberikan kamu informasi mengenai Rumahkini, seperti layanan, kisaran harga, cara memesan, metode pembayaran, dan lain-lain. Apa yang ingin kamu ketahui? Silakan pilih dari menu di bawah ini ya.",
-        "Aku di sini untuk membantu kamu dengan berbagai informasi tentang Rumahkini, termasuk layanan yang kami tawarkan, kisaran harga, cara pesan, metode pembayaran, dan lainnya. Apa yang ingin kamu ketahui? Silakan pilih dari menu di bawah ini ya."
+        "Aku di sini bisa membantu kamu dengan berbagai informasi mengenai Rumahkini, seperti layanan yang tersedia, kisaran harga, cara memesan, metode pembayaran, dan lainnya. \n\nKamu ingin tahu yang mana? Silakan pilih dari menu di bawah ini ya.",
+        "Hai, aku bisa memberikan kamu informasi tentang Rumahkini, seperti layanan yang kami tawarkan, kisaran harga, cara memesan, metode pembayaran, dan lain-lain. \n\nAda yang ingin kamu tanyakan? Pilih menu di bawah ini ya.",
+        "Aku dapat membantu kamu dengan informasi seputar Rumahkini, termasuk layanan kami, harga, cara pesan, metode pembayaran, dan sebagainya. \n\nApa yang ingin kamu ketahui? Pilih dari menu di bawah ini ya.",
+        "Aku siap membantu kamu dengan informasi tentang Rumahkini, seperti jenis layanan, kisaran harga, cara melakukan pemesanan, metode pembayaran, dan lainnya. \n\nAda yang ingin kamu tahu? Pilih dari menu di bawah ini ya.",
+        "Halo, aku di sini untuk memberikan informasi mengenai Rumahkini, seperti layanan yang kami sediakan, kisaran harga, cara memesan, metode pembayaran, dan lainnya. \n\nApa yang ingin kamu tanyakan? Silakan pilih dari menu di bawah ini ya.",
+        "Aku di sini bisa bantu kamu dengan informasi-informasi mengenai Rumahkini, termasuk layanan yang tersedia, kisaran harga, cara pesan, cara bayar, dan lain-lain. \n\nKamu ingin tahu apa? Pilih dari menu di bawah ini ya.",
+        "Halo, aku bisa membantu kamu dengan berbagai informasi tentang Rumahkini, seperti layanan yang kami tawarkan, harga, cara memesan, metode pembayaran, dan lainnya. \n\nAda yang ingin kamu tanyakan? Silakan pilih dari menu di bawah ini ya.",
+        "Aku siap membantu kamu dengan informasi seputar Rumahkini, mulai dari layanan yang kami sediakan, kisaran harga, cara memesan, hingga metode pembayaran. \n\nApa yang ingin kamu ketahui? Pilih dari menu di bawah ini ya.",
+        "Selamat datang! Aku dapat memberikan kamu informasi mengenai Rumahkini, seperti layanan, kisaran harga, cara memesan, metode pembayaran, dan lain-lain. \n\nApa yang ingin kamu ketahui? Silakan pilih dari menu di bawah ini ya.",
+        "Aku di sini untuk membantu kamu dengan berbagai informasi tentang Rumahkini, termasuk layanan yang kami tawarkan, kisaran harga, cara pesan, metode pembayaran, dan lainnya. \n\nApa yang ingin kamu ketahui? Silakan pilih dari menu di bawah ini ya."
       ]
     },        
     {
